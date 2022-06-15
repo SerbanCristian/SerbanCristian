@@ -1,0 +1,52 @@
+        html,
+        body,
+        div,
+        iframe {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            border: none;
+            overflow: hidden;
+        }
+
+        iframe {
+            margin: 0px;
+            margin-left: 0;
+            padding-left: 0;
+            padding-right: 0;
+            display: block;
+            width: 100%;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .pageTitle {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .center {
+            table-layout: fixed ;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%; 
+        }
+
+        th, td {
+            background-color: #e6b983;
+            padding: 1px;
+            width: 25% ;
+            border-radius: 5px;
+        }
+
+        .mainFrame {
+            border: none;
+        }

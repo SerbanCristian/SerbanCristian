@@ -1,0 +1,16 @@
+body{
+    height: 100%;
+    background-image: url(Haruki-Murakami-Home.jpg);
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hue;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.text{
+    text-align: center;
+    text-size-adjust: 20%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haruki Murakami</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <a href="https://validator.w3.org/" target="_blank">Validation for HTML</a>
+    <a href="https://jigsaw.w3.org/" target="_blank">Validation for CSS</a>
+    <h1 class = "pageTitle">Haruki Murakami</h1>
+    <table class="center">
+        <tr>
+        <th>
+        <a href = "home.html" target = "iframe_a">Home</a>
+        </th>
+        <th>
+            <a href = "about.html" target = "iframe_a">About</a>
+        </th>
+        <th>
+            <a href = "books.html" target = "iframe_a">Books</a>
+        </th>
+        <th>
+            <a href = "latest_book.html" target="iframe_a">Latest Book</a>
+        </th>
+        <th>
+            <a href = "contact.html" target="iframe_a">Contact</a>
+        </th></tr>
+    </table>
+    <div>    
+    <iframe 
+        id = "indexFrame" 
+        class = "mainFrame" 
+        name="iframe_a" 
+        title="Iframe Example"  
+        width = "100"
+        height = "100"
+        src = "home.html"></iframe>
+    </div>
+    <script>    
+        document.getElementById('indexFrame').contentDocument.location.reload(true);
+    </script>
+    
+</body>
+</html>
